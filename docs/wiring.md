@@ -2,6 +2,10 @@
 
 All pins are defined in [`firmware/include/pins.h`](../firmware/include/pins.h). If you change wiring, change it there.
 
+![Wiring diagram](images/wiring-diagram.svg)
+
+> Colour-coded: a dot means wires are joined, and a crossing without a dot is **not** connected. Every red `3V3` tag and ⏚ symbol goes to the XIAO's 3V3 / GND (the breadboard + / − rails).
+
 ## Pin map: XIAO ESP32S3
 
 | XIAO pin | GPIO | Connects to |
